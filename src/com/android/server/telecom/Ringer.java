@@ -25,6 +25,7 @@ import android.content.pm.PackageManager;
 import android.hardware.camera2.CameraManager;
 import android.os.AsyncTask;
 import android.os.VibrationEffect;
+import android.provider.Settings;
 import android.telecom.Log;
 import android.telecom.TelecomManager;
 import android.media.AudioAttributes;
@@ -33,6 +34,7 @@ import android.media.Ringtone;
 import android.media.VolumeShaper;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.os.Vibrator;
 
 import com.android.internal.annotations.VisibleForTesting;
